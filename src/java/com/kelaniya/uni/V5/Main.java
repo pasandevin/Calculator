@@ -8,12 +8,10 @@ import com.kelaniya.uni.V5.repository.NumberRepository;
 import com.kelaniya.uni.V5.ui.CmdLineUI;
 import com.kelaniya.uni.V5.ui.UI;
 
-import java.io.IOException;
-
 //Main class is the coordinator now...
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Inputs inputs = new CommandLineInputs(args);
         NumberRepository numberRepository = new FileNumberRepository();
